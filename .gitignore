@@ -1,1 +1,6 @@
+# rust
 target
+
+# benchmark executables
+benchmark/logspam-plain
+benchmark/logspam-password
