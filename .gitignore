@@ -1,6 +1,9 @@
 # rust
 target
 
+# cargo fmt
+*.bk
+
 # benchmark executables
 benchmark/logspam-plain
 benchmark/logspam-password
