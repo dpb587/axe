@@ -13,18 +13,18 @@ fi
 case $1 in
   plain)
     $BENCH_DIR/logspam-plain | $AXE filter | pv --line-mode > /dev/null
-
     ;;
 
   password)
     $BENCH_DIR/logspam-password | $AXE filter | pv --line-mode > /dev/null
+    ;;
 
+  encrypt)
+    $BENCH_DIR/logspam-password | $AXE filter -e "benchmark-key" | pv --line-mode > /dev/null
     ;;
 
   *)
-    echo "Usage: $0 {plain|password}"
-
+    echo "Usage: $0 {plain|password|encrypt}"
     ;;
-
 esac
 
