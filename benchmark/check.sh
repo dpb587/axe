@@ -20,7 +20,7 @@ case $1 in
     ;;
 
   encrypt)
-    $BENCH_DIR/logspam-password | $AXE filter -e "benchmark-key" | pv --line-mode > /dev/null
+    $BENCH_DIR/logspam-password | $AXE filter -k "benchmark-key" | pv --line-mode > /dev/null
     ;;
 
   *)
