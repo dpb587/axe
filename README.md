@@ -38,9 +38,9 @@ misrememebered values from my 4 year old Macbook Air:
 
 | Task                                      | Lines processed/second  |
 |-------------------------------------------|------------------------:|
-| Re-outputting when there are no passwords | 266,000                 |
-| Redacting when every line is a password   | 300,000                 |
-| Encrypting when evey line is a password   | 110,000                 |
+| Re-outputting when there are no passwords | 271,000                 |
+| Redacting when every line is a password   | 371,000                 |
+| Encrypting when evey line is a password   | 102,000                 |
 
 You can run these bencharks for yourself by using the `benchmark/check.sh`
 script. Make sure to compile the binary in release mode with `cargo build
