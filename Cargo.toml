@@ -5,6 +5,8 @@ authors = ["Christopher Brown <xoebus@xoeb.us>"]
 
 [dependencies]
 ansi_term = "0.9"
+base64 = "0.2"
 clap = "2"
 lazy_static = "0.2"
 regex = "0.1"
+sodiumoxide = "0.0.12"
