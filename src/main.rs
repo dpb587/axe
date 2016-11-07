@@ -129,12 +129,7 @@ fn main() {
                 }
                 _ => {
                     for line in lines {
-                        if line_contains_credential(&line) {
-                            println!("+++ axe: Line contained a possible credential and has been \
-                                      removed.");
-                        } else {
-                            println!("{}", line)
-                        }
+                        println!("{}", line)
                     }
                 }
             }
