@@ -33,8 +33,8 @@ Not yet.
 
 ## benchmarks
 
-Official benchmarks are coming soon but here are some empirical and probably
-misrememebered values from my 4 year old Macbook Air:
+These are some are some empirical performance figures from my 4 year old
+Macbook Air:
 
 | Task                                      | Lines processed/second  |
 |-------------------------------------------|------------------------:|
