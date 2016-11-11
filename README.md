@@ -34,13 +34,13 @@ Not yet.
 ## benchmarks
 
 These are some are some empirical performance figures from my 4 year old
-Macbook Air:
+Macbook Air (Rust 1.13.0):
 
 | Task                                      | Lines processed/second  |
 |-------------------------------------------|------------------------:|
-| Re-outputting when there are no passwords | 271,000                 |
-| Redacting when every line is a password   | 371,000                 |
-| Encrypting when evey line is a password   | 102,000                 |
+| Re-outputting when there are no passwords | 297,000                 |
+| Redacting when every line is a password   | 435,000                 |
+| Encrypting when evey line is a password   | 113,000                 |
 
 You can run these bencharks for yourself by using the `benchmark/check.sh`
 script. Make sure to compile the binary in release mode with `cargo build
